@@ -23,7 +23,7 @@ jobs:
           sudo apt-get install -y pandoc
 
       - name: Build site
-        run: ./build.sh
+        run: bash ./build.sh
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

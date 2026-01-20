@@ -1,4 +1,5 @@
-mkdir _site
+mkdir -p _site
+cp styles.css _site/
 cp -R notes _site/
 pandoc index.md \
   -s \
