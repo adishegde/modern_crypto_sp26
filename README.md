@@ -23,9 +23,9 @@ The class will focus on rigorous proofs and require mathematical maturity.
 
 ### Office Hours
 
-- Aditya Hegde: TBD, Wednesday, Location TBD
-- Harry Eldridge: 11:00am - 12:00pm, Tuesday, Location TBD
-- Shruthi Prusty: TBD, TBD, TBD
+- Aditya Hegde: 4:00pm - 5:00pm, Wednesday, Malone 307
+- Harry Eldridge: 11:00am - 12:00pm, Tuesday, Malone 307
+- Shruthi Prusty: 1:00pm - 2:00pm, Thursday, Malone 216
 
 ## Textbook
 
@@ -48,6 +48,17 @@ When collaborating with other students you are required to state at the beginnin
 
 You are allowed to use AI to better understand the materials presented in class.
 All homework submissions must be your individual work, done without the aid of AI.
+
+### Late Policy
+
+Homeworks are due at 11:59pm Eastern Time on the day listed as their due date.
+You have a total of 48 late hours for submitting homeworks.
+For example, you could submit homework 1 three hours late, homework 2 ten hours late, and homework 5 thirty-five hours late and receive no penalty.
+Homeworks submitted at any time past the hour count as consuming a late hour.
+For example, submitting a homework at 1:00am Eastern Time the day after it is due would consume two late hours.
+Homeworks submitted after all 48 late hours have been consumed will be worth 0.
+
+For overwhelming obstacles (illness, family emergency, etc.) please reach out to the instructors or TA to request an extension.
 
 ## Schedule
 
