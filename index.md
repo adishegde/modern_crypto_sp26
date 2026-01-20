@@ -1,0 +1,14 @@
+## Course Information
+- **Time:** 3-4:15pm, Tuesday and Thursday
+- **Location:** Hodson 203
+- **Instructors:**
+    - Harry Eldridge 
+        - **Email:** heldrid2@jhu.edu
+        - **Office Hours:** Tuesday 11am-12pm (*Location TBD*)
+    - Aditya Hegde 
+        - **Email:** ahegde3@jhu.edu
+        - **Office Hours:** Wednesday 4-5pm (*Location TBD*)
+- **TA:**
+    - Shruthi Prusty
+        - **Email:** sprusty1@jhu.edu
+        - **Office Hours:** Thursday 1-2pm (*Location TBD*)

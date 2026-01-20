@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <link rel="stylesheet" href="https://unpkg.com/marx-css/css/marx.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+  <style>
+    :root {
+      --ink: #1f2328;
+      --muted: #5a6270;
+      --accent: #a14a2f;
+      --panel: #ffffff;
+      --wash: #f6f1ea;
+    }
+
+    body {
+      font-family: "Work Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 10% 10%, #f7efe4, #f1f6f9 45%, #f9f2e8 100%);
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--panel);
+      padding: 2.5rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 24px 60px rgba(35, 38, 48, 0.12);
+    }
+
+    h1, h2, h3 {
+      font-family: "Source Serif 4", "Times New Roman", serif;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 3vw, 3.2rem);
+      margin-bottom: 0.4rem;
+    }
+
+    h2 {
+      font-size: clamp(1.6rem, 2.2vw, 2rem);
+      margin-top: 2.4rem;
+    }
+
+    p, li {
+      font-size: 1.02rem;
+    }
+
+    .course-subtitle {
+      color: var(--muted);
+      margin-top: 0;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    table.schedule {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    table.schedule th {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      border-bottom: 2px solid #e2e5ea;
+    }
+
+    table.schedule td {
+      vertical-align: top;
+      border-bottom: 1px solid #ebeef2;
+    }
+
+    table.schedule tr:last-child td {
+      border-bottom: none;
+    }
+
+    .notice {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-top: 0.8rem;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        padding: 2rem 1.6rem;
+      }
+
+      table.schedule th,
+      table.schedule td {
+        display: block;
+        width: 100%;
+      }
+
+      table.schedule tr {
+        display: block;
+        padding: 0.6rem 0;
+      }
+    }
+  </style>
+</head>
+<body class="markdown-body">
+  <main>
+    <header>
+      <h1>Modern Cryptography</h1>
+      <p class="course-subtitle">JHU 601.442/642 · Spring 2026</p>
+    </header>
+
+    $for(include-before)$
+    $include-before$
+    $endfor$
+
+    $body$
+
+    $for(include-after)$
+    $include-after$
+    $endfor$
+
+    <section>
+      <h2>Class Schedule</h2>
+      <table class="schedule">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Slides</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          $for(schedule)$
+          <tr>
+            <td><b>$schedule.date$</b></td>
+            <td>$schedule.topic$</td>
+            <td>$schedule.slides$</td>
+            <td>$schedule.notes$</td>
+          </tr>
+          $endfor$
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
