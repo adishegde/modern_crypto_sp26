@@ -4,11 +4,11 @@
 - **Instructors:**
     - Harry Eldridge 
         - **Email:** heldrid2@jhu.edu
-        - **Office Hours:** Tuesday 11am-12pm (*Location TBD*)
+        - **Office Hours:** Tuesday 11am-12pm
     - Aditya Hegde 
         - **Email:** ahegde3@jhu.edu
-        - **Office Hours:** Wednesday 4-5pm (*Location TBD*)
+        - **Office Hours:** Wednesday 4-5pm
 - **TA:**
     - Shruthi Prusty
         - **Email:** sprusty1@jhu.edu
-        - **Office Hours:** Thursday 1-2pm (*Location TBD*)
+        - **Office Hours:** Thursday 1-2pm

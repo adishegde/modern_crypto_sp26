@@ -62,6 +62,7 @@
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
+      min-width: 620px;
     }
 
     table.schedule th {
@@ -70,11 +71,13 @@
       letter-spacing: 0.08em;
       color: var(--muted);
       border-bottom: 2px solid #e2e5ea;
+      padding: 0.6rem 0.75rem;
     }
 
     table.schedule td {
       vertical-align: top;
       border-bottom: 1px solid #ebeef2;
+      padding: 0.7rem 0.75rem;
     }
 
     table.schedule tr:last-child td {
@@ -87,20 +90,56 @@
       margin-top: 0.8rem;
     }
 
+    h2#course-information + ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0.8rem;
+    }
+
+    h2#course-information + ul li {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 0.4rem 1rem;
+      align-items: baseline;
+      padding: 0.2rem 0;
+    }
+
+    h2#course-information + ul li strong {
+      color: var(--muted);
+    }
+
+    .schedule-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 0.2rem;
+    }
+
     @media (max-width: 720px) {
+      body {
+        padding: 1.5rem 1rem 2.5rem;
+      }
+
       main {
-        padding: 2rem 1.6rem;
+        padding: 1.6rem 1.2rem;
+        border-radius: 14px;
+        box-shadow: 0 14px 30px rgba(35, 38, 48, 0.12);
       }
 
-      table.schedule th,
-      table.schedule td {
-        display: block;
-        width: 100%;
+      h1 {
+        font-size: clamp(2rem, 7vw, 2.6rem);
       }
 
-      table.schedule tr {
+      table.schedule {
+        min-width: 520px;
+      }
+
+      h2#course-information + ul li {
         display: block;
-        padding: 0.6rem 0;
+      }
+
+      h2#course-information + ul li strong {
+        display: block;
+        margin-bottom: 0.2rem;
       }
     }
   </style>
@@ -124,26 +163,28 @@
 
     <section>
       <h2>Class Schedule</h2>
-      <table class="schedule">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Topic</th>
-            <th>Slides</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          $for(schedule)$
-          <tr>
-            <td><b>$schedule.date$</b></td>
-            <td>$schedule.topic$</td>
-            <td>$schedule.slides$</td>
-            <td>$schedule.notes$</td>
-          </tr>
-          $endfor$
-        </tbody>
-      </table>
+      <div class="schedule-wrap">
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Topic</th>
+              <th>Slides</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            $for(schedule)$
+            <tr>
+              <td><b>$schedule.date$</b></td>
+              <td>$schedule.topic$</td>
+              <td>$schedule.slides$</td>
+              <td>$schedule.notes$</td>
+            </tr>
+            $endfor$
+          </tbody>
+        </table>
+      </div>
     </section>
   </main>
 </body>
