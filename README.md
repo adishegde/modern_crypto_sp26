@@ -21,6 +21,10 @@ The class will focus on rigorous proofs and require mathematical maturity.
 
 **TA**: Shruthi Prusty (sprusty1 [AT] jhu [DOT] edu)
 
+**Course Website**: [https://github.com/adishegde/modern_crypto_sp26](https://github.com/adishegde/modern_crypto_sp26)
+
+**Lecture Notes, Slides, and Homeworks**: Available on the course website
+
 ### Office Hours
 
 - Aditya Hegde: 4:00pm - 5:00pm, Wednesday, Malone 307
