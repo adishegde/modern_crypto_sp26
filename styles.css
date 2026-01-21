@@ -82,22 +82,52 @@ table.schedule tr:last-child td {
   margin-top: 0.8rem;
 }
 
-h2#course-information + ul {
+h2#course-information + dl {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 0.4rem 1.4rem;
+  margin: 0.8rem 0 0;
+}
+
+h2#course-information + dl dt {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.2rem 0 0;
+}
+
+h2#course-information + dl dd {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+h2#course-information + dl dd ul {
   list-style: none;
   padding-left: 0;
-  margin-top: 0.8rem;
+  margin: 0.2rem 0 0.4rem;
 }
 
-h2#course-information + ul li {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 0.4rem 1rem;
-  align-items: baseline;
-  padding: 0.2rem 0;
+h2#course-information + dl dd ul li {
+  margin: 0.4rem 0;
 }
 
-h2#course-information + ul li strong {
+h2#course-information + dl dd ul li + li {
+  margin-top: 0.6rem;
+}
+
+h2#course-information + dl dd ul li ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.2rem 0 0.4rem;
   color: var(--muted);
+  font-size: 0.9rem;
+}
+
+h2#course-information + dl dd ul li ul strong {
+  color: var(--muted);
+  font-size: 0.82rem;
+  display: inline-block;
+  min-width: 110px;
 }
 
 .schedule-wrap {
@@ -129,8 +159,17 @@ h2#course-information + ul li strong {
     display: block;
   }
 
-  h2#course-information + ul li strong {
+  h2#course-information + dl {
     display: block;
-    margin-bottom: 0.2rem;
+  }
+
+  h2#course-information + dl dt {
+    margin-top: 0.8rem;
+  }
+
+  h2#course-information + dl dd ul li ul strong {
+    display: block;
+    min-width: auto;
+    margin-bottom: 0.1rem;
   }
 }

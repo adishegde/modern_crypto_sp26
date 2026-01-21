@@ -2,5 +2,5 @@ title: "JHU Modern Cryptography '26"
 schedule:
   - date: "Jan 20"
     topic: "Introduction and Prerequisites"
-    slides: ""
+    slides: "[PDF](slides/lec_0.pdf)"
     notes: "*Required Reading:* [Notes on prerequisites](notes/prerequisite_notes.pdf)"
