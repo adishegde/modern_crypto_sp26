@@ -31,7 +31,7 @@ Homeworks
 : Submit via [Canvas](https://jhu.instructure.com/courses/118081)
 
 Syllabus
-: [PDF](/notes/syllabus.pdf)
+: [PDF](notes/syllabus.pdf)
 
 ## Resources
 There is no required textbook. We recommend using ["A Graduate Course in Applied Cryptography"](https://toc.cryptobook.us/) by Dan Boneh and Victor Shoup as supplemental text. A few additional references are listed below.
