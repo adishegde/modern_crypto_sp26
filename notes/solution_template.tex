@@ -1,0 +1,81 @@
+\documentclass[a4paper]{article}
+
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[
+n,
+operators,
+advantage,
+sets,
+adversary,
+landau,
+probability,
+notions,
+logic,
+ff,
+mm,
+primitives,
+events,
+complexity,
+asymptotics,
+keys]{cryptocode}
+\usepackage{mdframed}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+
+% ==== Environments ====
+\newcounter{solution}
+\newcounter{subsolution}[solution]
+\newcommand{\solution}{\section*{Solution \stepcounter{solution}\arabic{solution}}}
+\newcommand{\subsolution}{\paragraph{(\protect\stepcounter{subsolution}\alph{subsolution})}}
+\newtheorem{claim}{Claim}[solution]
+
+% ==== Custom Math Commands ====
+% A few macros to get you started.
+\newcommand{\keyspace}{\ensuremath{\mathcal{K}}}
+\newcommand{\mssgspace}{\ensuremath{\mathcal{M}}}
+\newcommand{\ctxspace}{\ensuremath{\mathcal{C}}}
+
+\begin{document}
+
+\section*{Collaborators}
+List your collaborators here.
+
+\solution{}
+Use the \verb|\solution| command to indicate the beginning of a solution to a new problem.
+
+\begin{claim}
+    Use claims to break long proofs into smaller, manageable components. They are well suited for short, clearly defined results and improve the overall flow of the solution.
+\end{claim}
+\begin{proof}
+    As the name suggests, the proof environment is used for writing proofs for claims (and other theorem environments).
+\end{proof}
+
+\setcounter{solution}{3}
+\solution{}
+The solution numbering can be changed by using the \verb|\setcounter{solution}{<value>}| command.
+
+\solution{}
+\subsolution{} The \verb|\subsolution| command can be used for writing solutions to sub-problems.
+
+\solution{}
+Use the \href{http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/cryptocode/cryptocode.pdf}{cryptocode} package for other notations and drawing reduction diagrams.
+
+\begin{solution}
+    Use the \href{http://mirror.iopb.res.in/tex-archive/macros/latex/contrib/mdframed/mdframed.pdf}{mdframed} package for describing protocols and algorithms.
+
+    \begin{mdframed}[userdefinedwidth=0.7\textwidth, align=center, frametitle=One-Time Encryption Game, frametitlerulewidth=1pt]
+        \begin{enumerate}
+            \item The adversary $\adv$ outputs a pair of messages $m_0, m_1 \in \mssgspace$.
+            \item A key $k \leftarrow \kgen$ is generated and a uniform bit $b \in \bin$ is chosen.
+                Ciphertext $c \leftarrow \enc_k(m_b)$ is computed and given to $\adv$.
+            \item $\adv$ outputs a bit $b'$.
+            \item The output of the experiment is 1 ($\adv$ wins) if $b' = b$ and 0 otherwise.
+        \end{enumerate}
+    \end{mdframed}
+\end{solution}
+
+\end{document}

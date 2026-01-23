@@ -4,3 +4,7 @@ schedule:
     topic: "Introduction and Prerequisites"
     slides: "[PDF](slides/lec_0.pdf)"
     notes: "*Required Reading:* [Notes on prerequisites](notes/prerequisite_notes.pdf)"
+  - date: "Jan 22"
+    topic: "Perfect Security"
+    slides: "[PDF](slides/lec_1.pdf)"
+    notes: "*Additional Reading:* Sections 2.1.1 and 2.1.2 from the [Boneh-Shoup Book](https://toc.cryptobook.us/)."
