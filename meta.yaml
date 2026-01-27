@@ -8,3 +8,7 @@ schedule:
     topic: "Perfect Security"
     slides: "[PDF](slides/lec_1.pdf)"
     notes: "*Additional Reading:* Sections 2.1.1 and 2.1.2 from the [Boneh-Shoup Book](https://toc.cryptobook.us/)."
+  - date: "Jan 27"
+    topic: "Limitations of Perfect Security"
+    slides: "[PDF](slides/lec_2.pdf)"
+    notes: "*Additional Reading:* Section 2.1.3 from the [Boneh-Shoup Book](https://toc.cryptobook.us/)."
