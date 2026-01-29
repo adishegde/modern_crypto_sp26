@@ -54,6 +54,7 @@ There is no required textbook. We recommend using ["A Graduate Course in Applied
 - [A Course in Cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf), Rafael Pass and Abhi Shelat
 - [Lecture Notes on Cryptography](https://cseweb.ucsd.edu/~mihir/papers/gb.pdf), Shafi Goldwasser and Mihir Bellare
 - [Introduction to Modern Cryptography](https://web.cs.ucdavis.edu/~rogaway/classes/227/spring05/book/main.pdf), Mihir Bellare and Phillip Rogaway
+- [Intensive Introduction to Cryptography](https://intensecrypto.org/public/), Boaz Barak
 
 
 **Books:**
