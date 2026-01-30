@@ -44,6 +44,7 @@ All homework submissions must be typeset (no handwritten submissions). We highly
 [^latehours]: For example, you could submit homework 1 three hours late, homework 2 ten hours late, and homework 5 thirty-five hours late and receive no penalty. Homeworks submitted at any time past the hour count as consuming a late hour. For example, submitting a homework at 1:00am Eastern Time the day after it is due would consume two late hours. Homeworks submitted after all 48 late hours have been consumed will be worth 0.
 
 1. [Homework 1](homeworks/hw_1.pdf). **Release Date:** January 22, 2026. **Due Date:** January 29, 2026.
+2. [Homework 2](homeworks/hw_2.pdf). **Release Date:** January 29, 2026. **Due Date:** February 5, 2026.
 
 ## Resources
 There is no required textbook. We recommend using ["A Graduate Course in Applied Cryptography"](https://toc.cryptobook.us/) by Dan Boneh and Victor Shoup as supplemental text (aka the Boneh-Shoup book). Any references to this book in additional readings correspond to *version 0.6*. A few additional references are listed below.
