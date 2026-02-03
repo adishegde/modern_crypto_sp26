@@ -20,3 +20,7 @@ schedule:
 
       - [Chapter 2 of Intensive Intro to Crypto](https://intensecrypto.org/public/lec_02_computational-security.html)
       - Sections 2.2 and 2.3 from the [Boneh-Shoup Book](https://toc.cryptobook.us/).
+  - date: "Feb 3"
+    topic: "Pseudorandomness"
+    slides: "[PDF](slides/lec_4.pdf)"
+    notes: "*Additional Reading:* Sections 3.1 to 3.3 from the [Boneh-Shoup Book](https://toc.cryptobook.us/)."
