@@ -24,3 +24,7 @@ schedule:
     topic: "Pseudorandomness"
     slides: "[PDF](slides/lec_4.pdf)"
     notes: "*Additional Reading:* Sections 3.1 to 3.3 from the [Boneh-Shoup Book](https://toc.cryptobook.us/)."
+  - date: "Feb 5"
+    topic: "Pseudorandomness II"
+    slides: "[PDF](slides/lec_5.pdf)"
+    notes: "*Additional Reading:* Sections 3.4 to 3.12 from the [Boneh-Shoup Book](https://toc.cryptobook.us/)."
