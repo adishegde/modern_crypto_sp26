@@ -45,6 +45,7 @@ All homework submissions must be typeset (no handwritten submissions). We highly
 
 1. [Homework 1](homeworks/hw_1.pdf). **Release Date:** January 22, 2026. **Due Date:** January 29, 2026.
 2. [Homework 2](homeworks/hw_2.pdf). **Release Date:** January 29, 2026. **Due Date:** February 5, 2026.
+2. [Homework 3](homeworks/hw_3.pdf). **Release Date:** February 5, 2026. **Due Date:** February 12, 2026.
 
 ## Resources
 There is no required textbook. We recommend using ["A Graduate Course in Applied Cryptography"](https://toc.cryptobook.us/) by Dan Boneh and Victor Shoup as supplemental text (aka the Boneh-Shoup book). Any references to this book in additional readings correspond to *version 0.6*. A few additional references are listed below.
