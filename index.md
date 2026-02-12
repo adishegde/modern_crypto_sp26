@@ -68,3 +68,7 @@ There is no required textbook. We recommend using ["A Graduate Course in Applied
 - [Introduction to Modern Cryptography](https://www.amazon.com/Introduction-Cryptography-Chapman-Network-Security/dp/1466570261?ie=UTF8&qid=1440439512&sr=8-1&keywords=introduction+to+modern+cryptography), Jonathan Katz and Yehuda Lindell.
 - [Foundations of Cryptography: Volume 1, Basic Tools](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368?ie=UTF8&qid=1440439391&sr=8-1&keywords=foundations+of+cryptography+basic+tools), Oded Goldreich.
 - [Foundations of Cryptography: Volume 2, Basic Applications](https://www.amazon.com/Foundations-Cryptography-2-Basic-Applications/dp/052111991X?ie=UTF8&qid=1440439466&sr=8-2&keywords=foundations+of+cryptography), Oded Goldreich.
+
+**Definitions:**
+
+A list of the definitions that we discuss in class can be found [here](notes/definitions.pdf)
