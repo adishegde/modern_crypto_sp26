@@ -36,3 +36,8 @@ schedule:
 
           - Sections 4.4, 4.6, and 4.8 from the [Boneh-Shoup Book](https://toc.cryptobook.us/) (ignore the block cipher sections).
           -  [Notes on pseudorandomness](notes/pseudorandomness_notes.pdf)
+    - date: "Feb 12"
+      topic: "Pseudorandomness III and Midterm Review"
+      slides: "[PDF](slides/lec_7.pdf)"
+      notes: "" 
+
