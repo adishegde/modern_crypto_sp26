@@ -39,5 +39,6 @@ schedule:
     - date: "Feb 12"
       topic: "Pseudorandomness III and Midterm Review"
       slides: "[PDF](slides/lec_7.pdf)"
-      notes: "" 
+      notes: |
+        [Board Work Notes](notes/lec_7_board_work.pdf)
 
