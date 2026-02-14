@@ -49,8 +49,7 @@ All homework submissions must be typeset (no handwritten submissions). We highly
 
 ### Solutions
 
-1. [Homework 1](solutions/hw_1_solutions.pdf)
-1. [Homework 2](solutions/hw_2_solutions.pdf)
+Homework solutions can be found in Canvas under "Modules" => "Homework Solutions."
 
 ## Resources
 There is no required textbook. We recommend using ["A Graduate Course in Applied Cryptography"](https://toc.cryptobook.us/) by Dan Boneh and Victor Shoup as supplemental text (aka the Boneh-Shoup book). Any references to this book in additional readings correspond to *version 0.6*. A few additional references are listed below.
