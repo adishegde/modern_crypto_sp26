@@ -3,7 +3,6 @@ cp styles.css _site/
 cp -R notes _site/
 cp -R slides _site/
 cp -R homeworks _site/
-cp -R solutions _site/
 pandoc index.md \
   -s \
   --template=template.html \

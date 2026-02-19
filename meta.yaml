@@ -41,4 +41,8 @@ schedule:
       slides: "[PDF](slides/lec_7.pdf)"
       notes: |
         [Board Work Notes](notes/lec_7_board_work.pdf)
-
+    - date: "Feb 19"
+      topic: "Pseudorandomness IV and Encryption I"
+      slides: "[PDF](slides/lec_8.pdf)"
+      notes: |
+          *Additional Reading:* Sections 5.1-5.4 from the [Boneh-Shoup Book](https://toc.cryptobook.us/), which go over constructing encryption schemes for messages of variable length.
