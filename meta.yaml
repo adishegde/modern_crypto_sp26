@@ -48,5 +48,5 @@ schedule:
           *Additional Reading:* Sections 5.1-5.4 from the [Boneh-Shoup Book](https://toc.cryptobook.us/), which go over constructing encryption schemes for messages of variable length.
     - date: "Feb 24"
       topic: "Encryption II"
-      slides: "[PDF](slides/lec_8.pdf)"
+      slides: "[PDF](slides/lec_9.pdf)"
       notes: ""
