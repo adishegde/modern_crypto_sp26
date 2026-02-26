@@ -50,3 +50,7 @@ schedule:
       topic: "Encryption II"
       slides: "[PDF](slides/lec_9.pdf)"
       notes: ""
+    - date: "Feb 26"
+      topic: "Encryption III"
+      slides: "[PDF](slides/lec_10.pdf)"
+      notes: ""
