@@ -49,7 +49,7 @@ schedule:
     - date: "Feb 24"
       topic: "Encryption II"
       slides: "[PDF](slides/lec_9.pdf)"
-      notes: ""
+      notes: "*Additional Reading:* [Notes on encryption](notes/encryption_notes.pdf)"
     - date: "Feb 26"
       topic: "Encryption III"
       slides: "[PDF](slides/lec_10.pdf)"
