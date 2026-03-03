@@ -12,7 +12,7 @@ Instructors
 
   - Aditya Hegde
     - **Email:** ahegde3@jhu.edu
-    - **Office Hours:** Wednesday 4-5pm, Malone 307
+    - **Office Hours:** Monday 5-6pm, Malone 307
 
 TA
 : - Shruthi Prusty
