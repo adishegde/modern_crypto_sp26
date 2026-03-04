@@ -54,3 +54,7 @@ schedule:
       topic: "Encryption III"
       slides: "[PDF](slides/lec_10.pdf)"
       notes: ""
+    - data: "March 3"
+      topic: "Foundations"
+      slides: "[PDF](slides/lec_11.pdf)"
+      notes:
