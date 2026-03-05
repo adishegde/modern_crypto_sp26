@@ -54,7 +54,13 @@ schedule:
       topic: "Encryption III"
       slides: "[PDF](slides/lec_10.pdf)"
       notes: ""
-    - data: "March 3"
+    - date: "March 3"
       topic: "Foundations"
       slides: "[PDF](slides/lec_11.pdf)"
       notes:
+    - date: "March 5"
+      topic: "Foundations II"
+      slides: "[PDF](slides/lec_12.pdf)"
+      notes: |
+        - *Required Reading:* Section 4.6 to 4.6.1 from the [Boneh-Shoup Book](https://toc.cryptobook.us/).
+        - *Additional Reading:* [Notes on proof of Golreich-Levin by Noah Stephens-Davidowitz](https://www.noahsd.com/crypto_lecture_notes/CS4830_Lecture_6___The_Goldreich_Levin_Theorem__hardcore_bits_from_any_OWF.pdf).
