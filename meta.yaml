@@ -40,7 +40,7 @@ schedule:
       topic: "Pseudorandomness III and Midterm Review"
       slides: "[PDF](slides/lec_7.pdf)"
       notes: |
-        [Board Work Notes](notes/lec_7_board_work.pdf)
+          [Board Work Notes](notes/lec_7_board_work.pdf)
     - date: "Feb 19"
       topic: "Pseudorandomness IV and Encryption I"
       slides: "[PDF](slides/lec_8.pdf)"
@@ -62,5 +62,9 @@ schedule:
       topic: "Foundations II"
       slides: "[PDF](slides/lec_12.pdf)"
       notes: |
-        - *Required Reading:* Section 4.6 to 4.6.1 from the [Boneh-Shoup Book](https://toc.cryptobook.us/).
-        - *Additional Reading:* [Notes on proof of Golreich-Levin by Noah Stephens-Davidowitz](https://www.noahsd.com/crypto_lecture_notes/CS4830_Lecture_6___The_Goldreich_Levin_Theorem__hardcore_bits_from_any_OWF.pdf).
+          - *Required Reading:* Section 4.6 to 4.6.1 from the [Boneh-Shoup Book](https://toc.cryptobook.us/).
+          - *Additional Reading:* [Notes on proof of Golreich-Levin by Noah Stephens-Davidowitz](https://www.noahsd.com/crypto_lecture_notes/CS4830_Lecture_6___The_Goldreich_Levin_Theorem__hardcore_bits_from_any_OWF.pdf).
+    - date: "March 10"
+      topic: "Authentication I"
+      slides: "[PDF](slides/lec_13.pdf)"
+      notes:
