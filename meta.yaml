@@ -68,3 +68,9 @@ schedule:
       topic: "Authentication I"
       slides: "[PDF](slides/lec_13.pdf)"
       notes:
+    - date: "March 12"
+      topic: "Authentication II"
+      slides: "[PDF](slides/lec_14.pdf)"
+      notes: |
+          - *Required Reading:* [Notes on hash functions](https://www.cs.cornell.edu/courses/cs6830/2009fa/scribes/lecture21.pdf), sections 2-4 of [Notes on Random Oracles](https://www.cs.bu.edu/~reyzin/teaching/f04cs538/oldnotes/notes19-20.pdf).
+          - *Additional Reading:* [Blog post on Lamport signatures](https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-illustrated-primer/).
