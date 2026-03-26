@@ -79,3 +79,7 @@ schedule:
       slides: "[PDF](slides/lec_15.pdf)"
       notes: |
           - *Required Reading:* [Sections 10.1 to 10.5 of Fall'22 lecture notes](https://github.com/heldridge/ModernCryptography-Fall2022/blob/main/lecture-notes.pdf).
+    - date: "March 26"
+      topic: "Zero-Knowledge II"
+      slides: "[PDF](slides/lec_16.pdf)"
+      notes:
