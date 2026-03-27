@@ -49,6 +49,7 @@ All homework submissions must be typeset (no handwritten submissions). We highly
 4. [Homework 4](homeworks/hw_4.pdf). **Release Date:** February 19, 2026. **Due Date:** February 26, 2026.
 5. [Homework 5](homeworks/hw_5.pdf). **Release Date:** February 26, 2026. **Due Date:** March 5, 2026.
 6. [Homework 6](homeworks/hw_6.pdf). **Release Date:** March 5, 2026. **Due Date:** March 12, 2026.
+6. [Homework 7](homeworks/hw_7.pdf). **Release Date:** March 26, 2026. **Due Date:** April 2, 2026.
 
 
 ### Solutions
