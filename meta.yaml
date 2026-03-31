@@ -83,3 +83,11 @@ schedule:
       topic: "Zero-Knowledge II"
       slides: "[PDF](slides/lec_16.pdf)"
       notes:
+    - date: "March 31"
+      topic: "Zero-Knowledge III"
+      slides: "[PDF](slides/lec_17.pdf)"
+      notes: |
+        *Additional Reading:*
+
+        - [Sections 10.5 to 10.11 of Fall'22 lecture notes](https://github.com/heldridge/ModernCryptography-Fall2022/blob/main/lecture-notes.pdf)
+        - [Sections 4.1 to 4.4 of Foundations of Cryptography Volume I](https://www.amazon.com/Foundations-Cryptography-1-Basic-Tools/dp/0521035368?ie=UTF8&qid=1440439391&sr=8-1&keywords=foundations+of+cryptography+basic+tools)
