@@ -100,3 +100,7 @@ schedule:
       topic: "CCA Security I"
       slides: "[PDF](slides/lec_19.pdf)"
       notes: ""
+    - date: "April 14"
+      topic: "CCA Security II"
+      slides: "[PDF](slides/lec_20.pdf)"
+      notes: ""
