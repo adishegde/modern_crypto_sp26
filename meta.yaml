@@ -104,3 +104,7 @@ schedule:
       topic: "CCA Security II"
       slides: "[PDF](slides/lec_20.pdf)"
       notes: ""
+    - date: "April 16"
+      topic: "Secure Computation I"
+      slides: "[PDF](slides/lec_21.pdf)"
+      notes: ""
