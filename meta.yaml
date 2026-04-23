@@ -108,3 +108,7 @@ schedule:
       topic: "Secure Computation I"
       slides: "[PDF](slides/lec_21.pdf)"
       notes: ""
+    - date: "April 21"
+      topic: "Secure Computation II"
+      slides: "[PDF](slides/lec_22.pdf)"
+      notes: ""
