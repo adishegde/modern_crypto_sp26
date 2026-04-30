@@ -68,6 +68,7 @@ There is no required textbook. We recommend using ["A Graduate Course in Applied
 - [Lecture Notes on Cryptography](https://cseweb.ucsd.edu/~mihir/papers/gb.pdf), Shafi Goldwasser and Mihir Bellare
 - [Introduction to Modern Cryptography](https://web.cs.ucdavis.edu/~rogaway/classes/227/spring05/book/main.pdf), Mihir Bellare and Phillip Rogaway
 - [Intensive Introduction to Cryptography](https://intensecrypto.org/public/), Boaz Barak
+- [Notes on Proving Things Secure](notes/proof_technique.pdf)
 
 
 **Books:**
